@@ -21,4 +21,6 @@ Currently the bot uses @here to announce streams and will fail if Mention Everyo
 
 Once this bot has been added to a server, it will need to be configured for each streamer. Send it a DM via Discord to get started. It will respond to your messages and walk you through setting up a streamer. Once you get the hang of things, try the [quickadd] command to speed things up if you're adding multiple streamers.
 
+It defaults to the default text channel that is first created with the server. To choose the channel, use the [setBotChannel] command and give it the channel ID you'd like to use.
+
 If you run into any problems you may either DM me on Discord, open an issue on GitHub, or send an email to dannfirefeet[at]gmail.com if you prefer.
