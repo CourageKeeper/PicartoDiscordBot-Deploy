@@ -2,8 +2,10 @@ README
 
 This is version 2 of the Picarto/Discord interface bot.
 The two primary differences between the test version and this are:
-	1. It uses NeDB as an in-memory database to manage the servers, streamers, and their online states.
-	2. It interfaces with Picarto's public API, allowing it to be configured by the end users.
+
+1. It uses NeDB as an in-memory database to manage the servers, streamers, and their online states.
+
+2. It interfaces with Picarto's public API, allowing it to be configured by the end users.
 
 Description:
 
