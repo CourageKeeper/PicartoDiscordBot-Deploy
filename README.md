@@ -4,6 +4,10 @@ Update 2018.2.19
 
 Some functions being used by the bot were depreciated over the past few months and the bot could no longer be added to servers. This has been corrected. If you are unable to make configuration changes to the bot, kick the bot and re-add it to the server.
 
+
+----
+
+
 This is version 2 of the Picarto/Discord interface bot.
 The two primary differences between the test version and this are:
 
