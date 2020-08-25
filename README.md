@@ -1,5 +1,13 @@
 README
 
+-----
+
+Update:
+This bot is current still limping along but does not function realiably. Discord has changed their heartbeat API so it often shows as offline, although it notifies more often than not. There is also an issue with the database occasionally permitting duplicate keys, thus duplicating notifications.
+Discord has also announced an API overhaul in November 2020. If I do not find time to update it before then it will become entirely non-functional and will be taken offline.
+
+-----
+
 This is version 2 of the Picarto/Discord interface bot.
 The two primary differences between the test version and this are:
 
@@ -11,11 +19,6 @@ Description:
 
 The Picarto We're Live! bot allows a Discord server owner to join the bot to their channel and set it up to notify a text channel when a streamer goes live on Picarto.tv.
 
-How to use:
-
-Add this  bot to your server with this link: https://discordapp.com/oauth2/authorize?permissions=150528&scope=bot&client_id=303296629396733953
-
-This will ensure that it has the needed permissions to work (Read Messages, Send Messages, Mention Everyone, Embed Links). It will work without the Embed Links permission if you would like the messages to be compacted, but it will fail without the others.
 
 Currently the bot uses @here to announce streams and will fail if Mention Everyone is not allowed.
 
